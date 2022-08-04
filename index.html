@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Custom css -->
+<link rel="stylesheet" href="./style.css">
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+      integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu"
+      crossorigin="anonymous"
+    />
+    <!-- Fav Icon -->
+   <link rel="shortcut icon" href="./assests/images/Group (1).png" type="image/x-icon">
+
+
+
+    <title>Vic-Music</title>
+
+</head>
+<body>
+  
+    <div class="container-fluid ">
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./assests/images/Group (1).png" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./assests/images/Group.png" alt=""></a>
+          <a class="navbar-brand" href="#"><img src="./assests/images/Vector.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li> -->
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 search"type="search" placeholder="Search" aria-label="Search">
+              <!-- <button class="btn btn-outline-success submit" type="submit">Search</button> -->
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- Navigation Ends -->
+
+    
+
+<div class="container-fluid content">
+
+<div class="first-container">
+  <img src="./assests/images/_Pound_Sign0001 1.png" alt="" class="pound">
+  
+  
+  <div class="footer-note text-white text-center ">
+    <p class="">Powered by Aceplora TechCamp Web Development Team</p>
+    </div>
+
+</div>
+
+<div class="second-container">
+  
+<div class="track">
+
+  <div id="player_contain">
+
+<!-- Playlist start-->
+
+<div class="card1" id="playlist">
+  <div class="card-body">
+    <div class="song_list">
+      <ul id="playlist_items" class="list-group song"></ul>
+    </div>
+
+  </div>
+</div>
+
+<!-- Playlist end -->
+
+
+<div class="card" id="player">
+  <div class="card-body">
+    <div id="audio_player">
+      <div class="img-thumbnail track-art">
+        <img id="trackimg" src="#" alt="" />
+      </div>
+      <div id="details">
+        <h4 class="track-name">Music Title</h4>
+        <h6 class="track-artist">Music Artist</h6>
+      </div>
+     
+
+  </div>
+</div>
+
+
+</div>
+
+  </div>
+
+<!-- This is the control section -->
+<div id="controls">
+              
+  <div class="main">
+    
+    <h6 class="current-time" style="float: left;">00:00</h6>
+    <h6 class="total-duration" style="float: right;">00:00</h6>
+    <input type="range" class="form-range seek_slider" value="0"  />
+
+  <i class="fas fa-step-backward prev-track"></i>
+  <i class="fas fa-volume-off"></i>
+<input
+type="range"
+class="volume_slider"
+min="0"
+max="100"
+value="80"
+/>
+<i class="fas fa-volume-up"></i>
+  <i
+    id="control"
+    class="fas fa-play-circle playpause-track"
+  ></i>
+
+  <i class="fas fa-sync disable"></i>
+  <i class="fas fa-step-forward next-track"></i>
+
+
+</div>
+
+</div>
+<!-- Control section ends -->
+
+
+</div>
+
+  
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.0.js"
+    integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+    crossorigin="anonymous"
+  ></script>
+
+  <script src="./js/bootstrap.min.js"></script>
+
+<script src="./script.js"></script>
+<script src="./main.js"></script>
+    
+</body>
+</html>
