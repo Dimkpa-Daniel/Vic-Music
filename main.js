@@ -47,6 +47,12 @@ curr_track.classList.add("audio");
 
 // Audio Tracklist
 var track_list = [
+      {
+        name: "Buga (Lo Lo Lo) (feat. Tekno)",
+        artist: "Kizz Daniel",
+        image: "./playlists-images/buga.jpg",
+        path: "./playlists/Buga-KizzDaniel,Tekno(Lyrics)_1654482694286.mp3",
+      },
     {
       name: "Say So",
       artist: "Doja Cat",
@@ -66,12 +72,7 @@ var track_list = [
       image: "./playlists-images/Latto_-_Big_Energy.png",
       path: "./playlists/Latto-BigEnergy(OfficialVideo)_1652472461110.mp3",
     },
-    {
-      name: "Listen",
-      artist: "Beyonce",
-      image: "./playlists-images/listen.jpg",
-      path: "./playlists/Beyoncé-Listen[OfficialFirstVideo]_1651674446009.mp3",
-    },
+ 
     {
       
       name: "7rings",
@@ -103,12 +104,7 @@ var track_list = [
         image: "./playlists-images/levitating.jpeg",
         path: "./playlists/Dua-Lipa-Ft-DaBaby-Levitating-Remix-(TrendyBeatz.com).mp3",
       },
-      {
-        name: "...Ready For It?",
-        artist: "Taylor Swift",
-        image: "./playlists-images/Ready for It.jpg",
-        path: "./playlists/TaylorSwift-…ReadyForIt_1652462377438.mp3",
-      },
+ 
       {
         name: "Only Girl (In The World)",
         artist: "Rihanna",
@@ -181,24 +177,14 @@ var track_list = [
         image: "./playlists-images/light switch.jpg",
         path: "./playlists/CharliePuth-LightSwitch[OfficialMusicVideo]_1652472287858.mp3",
       },
-      {
-        name: "Buga (Lo Lo Lo) (feat. Tekno)",
-        artist: "Kizz Daniel",
-        image: "./playlists-images/buga.jpg",
-        path: "./playlists/Buga-KizzDaniel,Tekno(Lyrics)_1654482694286.mp3",
-      },
+  
       {
         name: "Wake Me Up",
         artist: "Avicii",
         image: "",
         path: "./playlists/Avicii-WakeMeUp(OfficialVideo)_1657123994299.mp3",
       },
-      {
-        name: "Nobody",
-        artist: "Boy Spyce",
-        image: "",
-        path: "./playlists/Boy-Spyce-Nobody-(TrendyBeatz.com).mp3",
-      },
+  
       {
         name: "Last Last (Breakfast)",
         artist: "Burna Boy",
